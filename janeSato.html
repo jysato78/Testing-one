@@ -1,20 +1,86 @@
 <!DOCTYPE html>
 <html lang="eng-us">
+<style>
+	h1 {
+      /* Put a 15-pixel margin at the bottom of the heading. */
+      margin-bottom: 15px;
+      /* Change the size of your font to 60 pixels high. */
+      font-size: 50px;
+      /* This will color the heading font white. */
+      color: white;
+      /* Align the text to the center of its enclosing element (e.g. div). */
+      text-align: center;
+      /* Underline the text. */
+      text-decoration: underline;
+      /* The background of the heading element will now be blue. */
+      background-color: blue;
+    	}
+
+    	h2 {
+      /* Put a 15-pixel margin at the top of all h2 headings. */
+      margin-top: 15px;
+      padding-bottom: 15px;
+      font-size: 40px;
+      text-align: center;
+    }
+    img {
+      /* 
+                Center a block element in the middle of its enclosing tag.
+                When you use the "auto" rule on both left and right margins, 
+                your browser will do the math necessary to center a block element.
+                */
+      margin-left: auto;
+      margin-right: auto;
+      /* Block display (more on this later) */
+      display: block;
+    }
+    /* All p tags */
+    
+    p {
+      text-align: center;
+      font-size: 20px;
+      /* Bold the text. */
+      font-weight: bold;
+    }
+    /* All unordered list tags */
+    
+    ul {
+      text-align: center;
+      font-size: 35px;
+      /* Give an element a solid border. */
+      border-style: solid;
+      /* Render the border 5 pixels thick. */
+      border-width: 5px;
+      /* Include bullets in the content flow. */
+      /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+      list-style-position: inside;
+    }
+</style>
+
 <head>
-<title>my bio</title>
+		<title>my bio</title>
 </head>
+
 <body>
-<h1>Student Bio</h1>
-<br>
-<h2>Jane Sato</h2>
-<img src="" alt=jane>
-<br>
-<p>I was born in Tokyo.  I currently live in San Francisco.  I work at an accounting firm.  I wish to work at a tech company soon.</p>
-<br>
-<h2/>Contact Info</h2>
-<br>
-<ul>
-	<li>Email: jysato@hotamail.com</li>
-	<li>Github: janeSato</li>
-	<li>Portfolio: coming soon</li>
-</ul>
+	<div>
+		<h1>Student Bio</h1>
+		<br>
+		<section>
+			<h2>Jane Sato</h2>
+			<img src="https://placehold.it/200x200" alt=jane>
+		<br>
+		<p>I was born in Tokyo.  I currently live in San Francisco.  I work at an accounting firm.  I wish to work at a tech company soon.</p>
+		<br>
+		</section>
+	</div>
+	<section>
+		<h2/>Contact Info</h2>
+		<br>
+		<ul>
+			<li>Email: jysato@hotamail.com</li>
+			<li>Github: janeSato</li>
+			<li>Portfolio: coming soon</li>
+		</ul>
+	  </section>
+</body>
+</html>
